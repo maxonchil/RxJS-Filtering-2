@@ -245,7 +245,7 @@ const users$ = of([
         first(({ id }) => !!id, fallBackItem),
     );
 
-    run(stream$);
+    // run(stream$);
 })();
 
 export function runner() {}
